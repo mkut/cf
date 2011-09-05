@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=004016B7
+eax=00BC0448 ebx=6120D7EE ecx=00BD0000 edx=00000000 esi=6120D7F3 edi=00000000
+ebp=0028CD48 esp=0028CBD0 program=C:\_\[SourceCodes]\#競技プログラミング\[Contest]\[CodeForces]\!C\c++.out, pid 4892, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028CD48  004016B7  (00000001, 6120FD4C, 00BB00F8, 61004A1D)
+0028CD78  61006DDA  (00000000, 0028CDB0, 610066E0, 7EFDE000)
+End of stack trace

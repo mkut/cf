@@ -1,0 +1,51 @@
+#!/usr/bin/env ruby
+require 'find'
+require 'set'
+
+class SolvedList
+
+	def initialize
+		@prob = Hash.new
+	end
+
+	def prob(type)
+		@prob[type] = Set.new if !@prob[type]
+		@prob[type]
+	end
+
+	def add(type, number)
+		prob(type).add number
+	end
+
+	def load
+		Find.find('./') do |f|
+			if !(/\!/ =~ f)
+				case f
+				when /([0-9]*)A$/
+					add :A, $1
+				when /([0-9]*)B$/
+					add :B, $1
+				when /([0-9]*)C$/
+					add :C, $1
+				when /([0-9]*)D$/
+					add :D, $1
+				when /([0-9]*)E$/
+					add :E, $1
+				end
+			end
+		end
+		self
+	end
+
+	def print
+		sum = 0
+		@prob.each do |key, value|
+			puts "#{key}     #{value.size}"
+			sum += value.size
+		end
+		puts "Total #{sum}"
+	end
+
+end
+
+SolvedList.new.load.print

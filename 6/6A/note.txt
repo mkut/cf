@@ -1,0 +1,8 @@
+[Title]Triangle 
+[Source]Codeforces Beta Round #6 (Div. 2 Only)
+
+[解法]
+2通りやるだけ
+
+[提出]
+1:AC

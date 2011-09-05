@@ -1,0 +1,6 @@
+/* aoj header */
+
+int main()
+{
+
+}

@@ -1,0 +1,10 @@
+[Title]Exposition 
+[Source]Codeforces Beta Round #6 (Div. 2 Only)
+
+[解法]
+よくわからんけど通った
+
+[提出]
+1:TLE(29) 安直。O(N^2)はやはりだめだった。
+2:TLE(33) 多分階段上のコードでは(N/2)^2ぐらいかかる
+3:AC よくわからんコード、しゃくとりっぽいO(N)以上O(N^2)未満な感じ

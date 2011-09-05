@@ -1,0 +1,14 @@
+[Title]A. Shortest path of the king
+[Source]Codeforces Beta Round #3 
+
+[解法]
+やるだけ
+
+[注意点]
+
+Sample Input
+
+Sample Output
+
+[提出]
+1:AC

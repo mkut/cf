@@ -1,0 +1,17 @@
+[Title]Mysterious Present 
+[Source]Codeforces Beta Round #4 (Div. 2 Only) 
+
+[解法]
+DPのつもりで組んでたけど多項式オーダーになってなかった模様(本番)
+2以降解説見てDP組み直し(練習)
+
+[注意点]
+
+Sample Input
+
+Sample Output
+
+[提出]
+1:TLE(30)
+2:WA(10) ソートした方の大きさチェック漏れ
+3:AC

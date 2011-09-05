@@ -1,0 +1,28 @@
+﻿Beta #60
+
+A
+いやらしい
+2Hacked
+
+B
+適当に書いて1WA
+1000からincしていけばいい
+
+C
+数学的に解いたら誤差死
+解き直しても誤差死＋謎
+放置
+
+DE
+
+Challeng
+laycurseさん20hackとかぱねぇ
+
+System Test
+oox--
+
+Result
+1082点
+部屋内 9位/49人
+全体 211位/832人
+Rate 1597 -> 1698

@@ -1,0 +1,8 @@
+[Title]President's Office 
+[Source]Codeforces Beta Round #6 (Div. 2 Only)
+
+[解法]
+塗りつぶし
+
+[提出]
+1:AC

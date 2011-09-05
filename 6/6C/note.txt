@@ -1,0 +1,10 @@
+[Title]Alice, Bob and Chocolate 
+[Source]Codeforces Beta Round #6 (Div. 2 Only)
+
+[解法]
+シミュレーション
+
+[提出]
+1:RE(2) 1本しかないときダメだった(結果的にこの場合分けは不要)
+2:WA(3) なぜか>1になってた
+3:AC >=0に修正。
