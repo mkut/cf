@@ -21,15 +21,15 @@ class SolvedList
 		Find.find('./') do |f|
 			if !(/\!/ =~ f)
 				case f
-				when /([0-9]*)A$/
+				when /([0-9]+)A$/
 					add :A, $1
-				when /([0-9]*)B$/
+				when /([0-9]+)B$/
 					add :B, $1
-				when /([0-9]*)C$/
+				when /([0-9]+)C$/
 					add :C, $1
-				when /([0-9]*)D$/
+				when /([0-9]+)D$/
 					add :D, $1
-				when /([0-9]*)E$/
+				when /([0-9]+)E$/
 					add :E, $1
 				end
 			end

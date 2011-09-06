@@ -1,6 +1,8 @@
 #!/bin/zsh
-cp -r ${SP_PATH}/default \!$1
-cat > \!$1/c++.cpp << EOS
+if [ "$2" = "cpp" ]
+then
+	cp -r ${SP_PATH}/default \!$1
+	cat > \!$1/c++.cpp << EOS
 #include <milib/template/aoj>
 
 class solver
@@ -27,3 +29,12 @@ int main()
 	return 0;
 }
 EOS
+elif [ "$2" = "hs" ]
+then
+	cp -r ${SP_PATH}/default.hs \!$1
+	cat > \!$1/haskell.hs << EOS
+main = do
+EOS
+else
+	echo "Choose language(cpp/hs)."
+fi
