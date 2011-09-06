@@ -6,3 +6,5 @@ then
 else
 	mv *$1 $2
 fi
+git add .
+git commit -m "$1"
