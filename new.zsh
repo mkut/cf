@@ -32,9 +32,6 @@ EOS
 elif [ "$2" = "hs" ]
 then
 	cp -r ${SP_PATH}/default.hs \!$1
-	cat > \!$1/haskell.hs << EOS
-main = do
-EOS
 else
 	echo "Choose language(cpp/hs)."
 fi
