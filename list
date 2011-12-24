@@ -31,6 +31,8 @@ class SolvedList
 					add :D, $1
 				when /([0-9]+)E$/
 					add :E, $1
+				when /([0-9]+)F$/
+					add :F, $1
 				end
 			end
 		end
