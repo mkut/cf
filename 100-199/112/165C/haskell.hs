@@ -11,13 +11,14 @@ parse h = do
        s = input !! 1
    return (k, s)
 
+solve :: (Int, C.ByteString) -> Integer
 solve (k, s)
    | k == 0 = sum $ map g z
    | k /= 0 = sum $ zipWith f z (drop k z)
    where
       z     = map C.length . C.split '1' $ s
-      f x y = (x + 1) * (y + 1)
-      g x   = x * (x + 1) `div` 2
+      f x y = (fromIntegral x + 1) * (fromIntegral y + 1)
+      g x   = fromIntegral x * (fromIntegral x + 1) `div` 2
 
 -- lib
 
