@@ -1,0 +1,3 @@
+language: c++
+problem: 364A
+source: main.cpp
